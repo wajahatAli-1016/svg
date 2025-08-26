@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <defs>
+    <radialGradient id="mesh" cx="0.2" cy="0.2" r="1.2">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="600" fill="url(#mesh)"/>
+  <g opacity="0.08">
+    <circle cx="820" cy="520" r="180" fill="#FFFFFF"/>
+    <circle cx="160" cy="120" r="140" fill="#FFFFFF"/>
+  </g>
+
+  <g id="Logo" transform="translate(860,120)">
+    <polygon points="0,-44 38,22 -38,22" fill="#22D3EE"/>
+    <circle cx="0" cy="0" r="12" fill="#0EA5E9"/>
+  </g>
+
+  <text id="Company" x="100" y="200" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800" fill="#F9FAFB">NIGHTBYTE</text>
+  <text id="Tagline" x="100" y="240" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500" fill="#E5E7EB" opacity="0.9">Code After Dark</text>
+
+  <g transform="translate(100, 320)" font-family="Inter, Arial, sans-serif" font-size="22" fill="#E5E7EB">
+    <text id="Name" x="0" y="0" font-weight="700">Sam Park</text>
+    <text id="Title" x="0" y="34">Backend Engineer</text>
+    <text id="Email" x="0" y="68">sam@nightbyte.io</text>
+    <text id="Phone" x="0" y="102">+82 10-1234-5678</text>
+    <text id="Website" x="0" y="136">nightbyte.io</text>
+  </g>
+</svg>
+
